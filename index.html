@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>A reminder, just for you</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header class="hero">
+    <div>
+      <h1 id="hello">Hey you, don't forget.</h1>
+      <div class="big" id="days">–</div>
+      <p class="unit" id="unit">days until your birthday</p>
+      <div class="clock" aria-live="off">
+        <div><b id="h">0</b>hours</div><div><b id="m">0</b>minutes</div><div><b id="s">0</b>seconds</div>
+      </div>
+    </div>
+    <div class="cal">
+      <h2 id="calTitle">November</h2>
+      <div class="grid" id="grid"></div>
+    </div>
+  </header>
+
+  <section>
+    <h2>A note, For you my love ❤️</h2>
+    <p class="note" id="note"></p>
+  </section>
+
+  <section>
+    <h2>Reasons I love you</h2>
+    <div class="reason" id="reason" aria-live="polite">Tap the button for the first one.</div>
+    <button id="next">Give me a reason</button><span class="count" id="count"></span>
+  </section>
+
+  <section>
+    <h2>Keep the day free</h2>
+    <ul class="plan" id="plan"></ul>
+  </section>
+
+  <footer id="foot"></footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
